@@ -12,7 +12,7 @@ There are just a small number of characters that can be used to represent the bl
 
 Vertical Notches:
 
-``V ``
+``V`` or ``^``
 
 Horizontal Notches:
 ``<`` or ``>``
@@ -32,6 +32,9 @@ Therefore a 1 notch block would be represented as:
 
 .. code-block:: text
     V
+    #
+    ^
+    # or
     # or
     <
     # or 
@@ -43,6 +46,10 @@ a 2 notch block would be represented as:
     V
     |
     V
+    # or
+    ^
+    |
+    ^
     # or
     <-<
     <—<
@@ -75,6 +82,14 @@ and a 4 notch block would be represented as:
     V
     |
     V
+    # or 
+    ^
+    |
+    ^
+    |
+    ^
+    |
+    ^
     # or
     <-<-<-<
     <—<—<—<
@@ -107,9 +122,13 @@ Therefore, a single layer defined by 4 2 notch blocks would be represented as:
     V-V
     | |
     V-V
+    # or
+    ^-^
+    | |
+    ^-^
 
-The first two are identical; both showing the top logs being horizontal, and the bottom logs being vertical.  The third shows the same layer, but with the top logs being vertical, and the bottom logs being horizontal.
-The third could also be thought of as a 90 degree rotation of the first two.
+The first two are identical; both showing the top logs being horizontal, and the bottom logs being vertical.  The third and fourth shows the same layer, but with the top logs being vertical, and the bottom logs being horizontal.
+The latter two could also be thought of as a 90 degree rotation of the first two.
 
 A single layer defined by 4 3 notch blocks would be represented as:
 
@@ -127,7 +146,7 @@ A single layer defined by 4 3 notch blocks would be represented as:
     <-V-<
 
 .. note::
-    At this point I will also stop showing each < and > variation - as they are interchangeable.
+    At this point I will also stop showing each < and > variation - as they are interchangeable.  Similarly, I will only use ``V``, not ``^``.
 
 
 *****************************
