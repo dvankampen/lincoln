@@ -7,3 +7,11 @@ requires-python = ">=3.10"
 dependencies = [
     "names>=0.3.0",
 ]
+
+
+[tool.interrogate]
+ignore-init-method = true
+ignore-init-module = true
+ignore-magic = true
+ignore-private = false
+ignore-property-decorators = false

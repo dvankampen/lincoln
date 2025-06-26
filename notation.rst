@@ -31,18 +31,20 @@ Block Notation
 Therefore a 1 notch block would be represented as:
 
 .. code-block:: text
+
     V
     #
     ^
     # or
     # or
     <
-    # or 
+    # or
     >
 
 a 2 notch block would be represented as:
 
 .. code-block:: text
+
     V
     |
     V
@@ -53,13 +55,14 @@ a 2 notch block would be represented as:
     # or
     <-<
     <—<
-    # or 
+    # or
     >->
     >—>
 
 a 3 notch block would be represented as:
 
 .. code-block:: text
+
     V
     |
     V
@@ -68,13 +71,14 @@ a 3 notch block would be represented as:
     # or
     <-<-<
     <—<—<
-    # or 
+    # or
     >->->
     >—>—>
 
 and a 4 notch block would be represented as:
 
 .. code-block:: text
+
     V
     |
     V
@@ -82,7 +86,7 @@ and a 4 notch block would be represented as:
     V
     |
     V
-    # or 
+    # or
     ^
     |
     ^
@@ -93,7 +97,7 @@ and a 4 notch block would be represented as:
     # or
     <-<-<-<
     <—<—<—<
-    # or 
+    # or
     >->->->
     >—>—>—>
 
@@ -104,7 +108,7 @@ and a 4 notch block would be represented as:
 Layer Notation
 ************************
 
-Now that we have the individual block notation, we can combine them to create layers. 
+Now that we have the individual block notation, we can combine them to create layers.
 The terminology may be a bit confusing here, because a layer often typically consists of 2 logs on top of each other, which kind of seems like "2 layers", but we do it this way to keep the notation brief, and because laying down a single layer without the "orthogonal" structure makes it somewhat hard to construct properly.
 
 Therefore, a single layer defined by 4 2 notch blocks would be represented as:
@@ -133,6 +137,7 @@ The latter two could also be thought of as a 90 degree rotation of the first two
 A single layer defined by 4 3 notch blocks would be represented as:
 
 .. code-block:: text
+
     V-V-V
     |   |
     <   <
@@ -179,6 +184,5 @@ Here is a layer shouwing multiple "rooms" in a sense - we have a 4x3 layer with 
     <-V-V-<
 
 
-If its not obvious, on the above, the horizontal 4 length logs are on the bottom, and the vertical 3 length logs are on the top. 
+If its not obvious, on the above, the horizontal 4 length logs are on the bottom, and the vertical 3 length logs are on the top.
 There are 2 2 notch logs in the top left corner, the horizontal one is on the bottom, and the vertical one is on the top.
-
