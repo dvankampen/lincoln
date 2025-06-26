@@ -1,4 +1,4 @@
-
+"""Main module for creating and managing Lincoln Logs and Layers."""
 
 from lincolnlog import LincolnLog
 from lincolnlayer import LincolnLayer
@@ -10,6 +10,7 @@ log_catalog = [
 ]
 
 def main():
+    """Main function to create Lincoln Logs and add them to a Lincoln Layer."""
     layer = LincolnLayer()
     for log in log_catalog:
         layer.add_log(log)

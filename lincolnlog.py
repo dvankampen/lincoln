@@ -1,3 +1,4 @@
+"""Lincoln Log Module"""
 import names
 class LincolnLog:
     """A class representing a Lincoln Log, which can be used to create a simple structure with segments."""
@@ -29,7 +30,7 @@ class LincolnLog:
     def length(self):
         """Get the length of the Lincoln Log."""
         return (self.segments + 1) // 2
-    
+
     @length.setter
     def length(self, value):
         """Set the length of the Lincoln Log."""
@@ -42,7 +43,7 @@ class LincolnLog:
     def rotation(self):
         """Get the rotation of the Lincoln Log."""
         return self._rotation
-    
+
     @rotation.setter
     def rotation(self, value):
         """Set the rotation of the Lincoln Log."""
@@ -55,7 +56,7 @@ class LincolnLog:
     def transform(self):
         """Get the transform of the Lincoln Log."""
         return self._transform
-    
+
     @transform.setter
     def transform(self, value):
         """Set the transform of the Lincoln Log."""
@@ -74,4 +75,3 @@ class LincolnLog:
             else:
                 new_point = (self.transform[0], self.transform[1] + i)
             self.intersection_points.append(new_point)
-
